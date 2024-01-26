@@ -24,11 +24,14 @@ import React from 'react'
 import Count from './Counters/Count'
 import Effects from './Effects'
 import Reducer from './Reduce/Reducer'
+import Callbacks from './Usecallbk/Callback'
 export default function App() {
   return (
-   <div> <Count/>
+   <div> 
+    <Count/>
     <Effects/>
     <Reducer/>
+    <Callbacks/>
     </div>
   )
 }
